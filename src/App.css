@@ -1,0 +1,93 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen", "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue", sans-serif;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+  }
+  
+  #grad1 {
+    background: red;
+    background: -webkit-linear-gradient(left, orange , yellow, green, cyan, blue, violet);
+    background: -o-linear-gradient(right, orange, yellow, green, cyan, blue, violet);
+    background: -moz-linear-gradient(right, orange, yellow, green, cyan, blue, violet);
+    background: linear-gradient(to right, orange , yellow, green, cyan, blue, violet);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-size: 30px;
+    }
+
+
+  code {
+    font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New", monospace;
+  }
+  
+  .App {
+    text-align: center;
+  }
+  
+  .App-header {
+    background-color: #282c34;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-size: calc(10px + 2vmin);
+    color: white;
+  }
+  
+  .slider-board {
+    margin-top: 18px;
+    width: 100%;
+  }
+  
+  .slider-board div {
+    display: flex;
+    justify-content: center;
+  }
+  
+  .slider-msg {
+    font-size: 24px;
+  }
+  
+  .btn-new-game {
+    margin-top: 20px;
+  }
+  
+  .btn-new-game button {
+    outline: 0;
+    font-size: 16px;
+    font-weight: 600;
+    color: white;
+    background: #45884e;
+    border: none;
+    padding: 1.6em 4em;
+  }
+  
+  .btn-new-game button:hover {
+    color: salmon;
+  }
+  
+  
+  .slider-board div span, .slider-board div div {
+    background: salmon;
+    width: 46px;
+    margin: 0;
+    margin-bottom: 2px;
+    margin-left: 2px;
+    padding: 14px;
+    display: inline-block;
+    color: #fff;
+    user-select: none;
+  }
+  
+  .slider-board div span.empty, .slider-board div div.empty {
+    width: 46px;
+    margin: 0;
+    padding: 14px;
+    margin-bottom: 2px;
+    margin-left: 2px;
+    background: #282c34;
+    box-shadow: none;
+  }
